@@ -29,22 +29,22 @@
         settings:isPreferenceVisible="false"/>
 
     <!-- Changelog -->
-    <Preference
+    <!--Preference
         android:key="changelog"
         android:order="1"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
-        android:fragment="com.android.settings.nitrogen.Changelog" />
+        android:fragment="com.android.settings.nitrogen.Changelog" /-->
 
     <!-- OTA -->
-    <Preference android:key="nos_updates"
+    <!--Preference android:key="nos_updates"
         android:order="2"
         android:title="@string/nosupdate_settings_title"
         android:summary="@string/nosupdate_settings_summary">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="org.nitrogen.ota"
             android:targetClass="org.nitrogen.ota.activities.UpdaterActivity" />
-    </Preference>
+    </Preference-->
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
